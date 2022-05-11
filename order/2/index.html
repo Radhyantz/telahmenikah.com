@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Invitbook.com - Undangan Pernikahan Digital Premium</title>
+    <link rel="icon" href="../../assets/base/img/favicon.png?2022-04-28">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Undangan digital berupa website dan video untuk pernikahanmu. Lebih praktis, keren dan kekinian.">
+    <meta name="keywords" content="Undangan digital, Website pernikahan, Undangan kekinian, Web undangan kren">
+    <meta name="theme-color" content="#005CAA">
+    <meta name="author" content="MC Project">
+
+    <!-- Required CSS -->
+    <link rel="stylesheet" href="../../assets/base/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/base/css/line-icons.css">
+    <link type="text/css" href="../../assets/base/css/froala_blocks.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/base/css/pikaday.css">
+    <link rel="stylesheet" href="../../assets/base/css/croppie.min.css">
+
+  <style type="text/css" id="tts-styles">[data-tts-block-id].tts-active {background: rgba(206, 225, 255, 0.9) !important;} [data-tts-sentence-id].tts-active {background: rgba(0, 89, 191, 0.7) !important;}</style></head>
+
+  <body>
+    <header>
+        <div class="container">
+          <nav class="navbar navbar-expand-md fixed-top">
+            <div class="container">
+              <a class="navbar-brand navbar-order" href="https://invitbook.com">
+                <img src="../../assets/base/img/logo.png?2022-04-28" height="35" alt="image">
+              </a>
+            </div>
+          </nav>
+        </div>
+    </header>
+
+    
+    <div class="konten" style="display: flex;flex-grow: 1;overflow-x: hidden;flex-direction: row;margin-top: 60px;margin-bottom: 40px;">
+    <section class="fdb-block" style="padding-top: 20px;flex:1; ">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-8 col-xl-6">
+            <div class="row">
+              <div class="col text-center">
+                <h1 style="color: #005CAA;margin-bottom:0px;">Informasi Mempelai!</h1>
+                <p tyle="font-size: 15px;font-weight:500; ">Hai kak! di isi dulu ya datanya </p>
+              </div>
+            </div>
+            
+            <div class="progress" style="margin-top: 10px;">
+              <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
+            </div>
+            
+            <a class="mt-2" style="color: #2c3e50;margin-bottom:0px;font-size: 20px;font-weight: 600;display: flex;">Calon Mempelai Pria</a>
+
+          <form action="../../order/3" method="post">
+
+            <div class="row d-flex align-items-center">
+              <div class="col mt-2">
+                <label>Foto </label>
+                <div class="upload-area-bg" style="text-align: center;">
+                  
+                  <div class="col">
+                  <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center">
+                       <div class="upload-area" style="height: 100%;padding: 5px 5px;">
+                                               <img src="../../assets/base/img/groom.png" id="profile-pic-groom" style="border-radius: 5px;height: 200px;width: 200px;" class="img-responsive">
+                       </div>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center mt-3">
+                      <div class="btn btn-dark">
+                        <input type="file" class="file-upload" id="groom" name="profile_picture" accept="image/*"> Upload Foto
+                      </div>
+                    </div>
+                  </div>   
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row align-items-center">
+              <div class="col">
+                <label>Nama Lengkap</label>
+                <input name="nama_lengkap_pria" type="text" class="form-control" placeholder="Contoh : Jack Dawson S.Kom" value="" style="text-transform:capitalize" required="">
+                 
+              </div>
+            </div>
+
+            <div class="row align-items-center mt-3">
+              <div class="col">
+                <label>Nama Panggilan</label>
+                <input name="nama_panggilan_pria" type="text" class="form-control" placeholder="Contoh : Jack" value="" required="">
+              </div>
+            </div>
+
+            <div class="row align-items-center mt-3">
+              <div class="col">
+                <label>Nama Ayah</label>
+                <input name="nama_ayah_pria" type="text" class="form-control" placeholder="Nama Ayah" value="" style="text-transform:capitalize" required="">
+              </div>
+            </div>
+
+            <div class="row align-items-center mt-3">
+              <div class="col">
+                <label>Nama Ibu</label>
+                <input name="nama_ibu_pria" type="text" class="form-control" placeholder="Nama Ibu" value="" style="text-transform:capitalize" required="">
+              </div>
+            </div>
+            <hr>
+            <a style="color: #2c3e50;margin-bottom:0px;font-size: 20px;font-weight: 600;margin-top: 15px;display: flex;">Calon Mempelai Wanita</a>
+
+            <div class="row d-flex align-items-center">
+              <div class="col mt-2">
+                <label>Foto </label>
+                <div class="upload-area-bg" style="text-align: center;">
+                                    <div class="col">
+                  <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center">
+                       <div class="upload-area" style="height: 100%;padding: 5px 5px;">
+                       <img src="../../assets/base/img/bride.png" id="profile-pic-bride" style="border-radius: 5px;height: 200px;width: 200px;">
+                       </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center mt-3">
+                      <div class="btn btn-dark">
+                        <input type="file" class="file-upload" id="bride" name="profile_picture" accept="image/*"> Upload Foto
+                      </div>
+                    </div>
+                  </div>   
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row align-items-center">
+              <div class="col">
+                <label>Nama Lengkap</label>
+                <input name="nama_lengkap_wanita" type="text" class="form-control" placeholder="Contoh : Fatimah Az Zahra" value="" style="text-transform:capitalize" required="">
+              </div>
+            </div>
+
+            <div class="row align-items-center mt-3">
+              <div class="col">
+                <label>Nama Panggilan</label>
+                <input name="nama_panggilan_wanita" type="text" class="form-control" placeholder="Contoh : Fatimah" value="" required="">
+              </div>
+            </div>
+
+            <div class="row align-items-center mt-3">
+              <div class="col">
+                <label>Nama Ayah</label>
+                <input name="nama_ayah_wanita" type="text" class="form-control" placeholder="Nama Ayah" value="" style="text-transform:capitalize" required="">
+                
+              </div>
+            </div>
+
+            <div class="row align-items-center mt-3">
+              <div class="col">
+                <label>Nama Ibu</label>
+                <input name="nama_ibu_wanita" type="text" class="form-control" placeholder="Nama Ibu" value="" style="text-transform:capitalize" required="">
+               
+              </div>
+            </div>
+            <hr>
+            <div class="row d-flex align-items-center">
+              <div class="col mt-2">
+                <label>Foto Sampul</label>
+                <div class="upload-area-bg" style="text-align: center;">
+                  
+                  <div class="col">
+                  <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center">
+                       <div class="upload-area" style="height: 100%;padding: 5px 5px;">
+                                               <img src="../../assets/base/img/kita.png" id="profile-pic-sampul" style="border-radius: 5px;height: 200px;width: 200px;">
+                       </div>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center mt-3">
+                      <div class="btn btn-dark">
+                        <input type="file" class="file-upload" id="sampul" name="profile_picture" accept="image/*"> Upload Foto
+                      </div>
+                    </div>
+                  </div>   
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row justify-content-start mt-4">
+              <div class="col">
+                <div class="row">
+                  
+                  <div class="col-auto">
+                    <a href="../../order/1" class="btn btn-secondary btn-order">Kembali</a>
+                  </div>
+                  <div class="col">
+                    <input name="submit" type="submit" class="btn btn-primary btn-order btn-block" style="background-color: #005CAA;" value="Lanjut">
+                  </div>
+                </div>   
+              </div>
+            </div>
+          </form>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+</div>
+    <footer class="fdb-block footer-small footer">
+        <div class="container">
+        <div class="col-12 text-lg-left">
+            <p class="lead footer-social">
+              <a href="#" class="mx-2"><i class="lni-facebook-filled" aria-hidden="true"></i></a>
+              <a href="#" class="mx-2"><i class="lni-instagram-filled" aria-hidden="true"></i></a>
+            </p>
+          </div>
+            <div class="row text-center">
+            <div class="col">
+                <p class="text-footer" style="color:#fff;">©2021 <a href="https://invitbook.com" rel="dofollow" target="_blank">Invitbook.com</a></p>
+            </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- modal upload croppie -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Foto Mempelai</h4>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div id="resizer"></div>
+                    <hr>
+                    <button class="btn btn-block btn-dark" id="upload"> 
+                    Upload</button>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    <script src="../../assets/base/js/jquery-min.js"></script>
+    <script src="../../assets/base/js/popper.min.js"></script>
+    <script src="../../assets/base/js/bootstrap.min.js"></script>
+    <script src="../../assets/base/js/jquery.nav.js"></script>    
+    <script src="../../assets/base/js/jquery.easing.min.js"></script>     
+    <script src="../../assets/base/js/main.js"></script>
+    <script src="../../assets/base/js/moment-with-locales.js"></script>
+    <script src="../../assets/base/js/pikaday.js"></script>
+    <script src="../../assets/base/js/dropzone.js"></script>
+    <script src="../../assets/base/js/croppie.min.js"></script>
+  
+
+<script type="text/javascript">
+
+function nospaces(t){
+      if(t.value.match(/\s/g)){
+        t.value=t.value.replace(/\s/g,'');
+      }
+    }
+
+$(function () {
+
+  /** croppie shareurcodes.com **/
+    var croppie = null;
+    var el = document.getElementById('resizer');
+
+    $.base64ImageToBlob = function(str) {
+        /** extract content type and base64 payload from original string **/
+        var pos = str.indexOf(';base64,');
+        var type = str.substring(5, pos);
+        var b64 = str.substr(pos + 8);
+      
+        /* decode base64 */
+        var imageContent = atob(b64);
+      
+        /* create an ArrayBuffer and a view (as unsigned 8-bit) */
+        var buffer = new ArrayBuffer(imageContent.length);
+        var view = new Uint8Array(buffer);
+      
+        /* fill the view, using the decoded base64 */
+        for (var n = 0; n < imageContent.length; n++) {
+          view[n] = imageContent.charCodeAt(n);
+        }
+      
+        /* convert ArrayBuffer to Blob */
+        var blob = new Blob([buffer], { type: type });
+      
+        return blob;
+    }
+
+    $.getImage = function(input, croppie) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function(e) {  
+                croppie.bind({
+                    url: e.target.result,
+                });
+            }
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+    var fotonyasiapa = '';
+    $(".file-upload").on("change", function(event) {
+        $("#myModal").modal();
+        fotonyasiapa = $(this).attr("id");
+        console.log("foto_"+fotonyasiapa);
+        /* Initailize croppie instance and assign it to global variable */
+        var boundaryWidth = $(".modal-body").width();
+    var boundaryHeight = boundaryWidth;   
+
+    var viewportWidth = boundaryWidth - (boundaryWidth/100*25);
+
+    var viewportHeight = boundaryHeight - (boundaryHeight/100*25);
+
+    croppie = new Croppie(el, {
+
+        viewport: { width: viewportWidth, height: viewportHeight },
+        boundary: { width: boundaryWidth, height: boundaryHeight },
+        enableOrientation: true
+            });
+        $.getImage(event.target, croppie); 
+    });
+
+    $("#upload").on("click", function() {
+        croppie.result('base64').then(function(base64) {
+            $("#myModal").modal("hide"); 
+            $("#profile-pic").attr("src","/images/ajax-loader.gif");
+
+            var url = "../../order/imgupload";
+            var formData = new FormData();
+            formData.append("foto_"+fotonyasiapa, $.base64ImageToBlob(base64));
+
+            $.ajax({
+                type: 'POST',
+                url: url,
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function(data) {
+                  console.log(data);
+                    if (data == "uploadedbride") {
+                        $("#profile-pic-bride").attr("src", base64); 
+                    } else if(data == "uploadedgroom"){
+                        $("#profile-pic-groom").attr("src", base64); 
+                    } else if(data == "uploadedsampul"){
+                        $("#profile-pic-sampul").attr("src", base64); 
+                    } else {
+                        $("#profile-pic").attr("src","/images/icon-cam.png"); 
+                        console.log(data['profile_picture']);
+                    }
+                },
+                error: function(error) {
+                    console.log(error);
+                    $("#profile-pic").attr("src","/images/icon-cam.png"); 
+                }
+            });
+        });
+    });
+
+    /* To Rotate Image Left or Right */
+    $(".rotate").on("click", function() {
+        croppie.rotate(parseInt($(this).data('deg'))); 
+    });
+
+    $('#myModal').on('hidden.bs.modal', function (e) {
+        /* This function will call immediately after model close */
+        /* To ensure that old croppie instance is destroyed on every model close */
+        setTimeout(function() { croppie.destroy(); }, 100);
+    });
+
+    $("#next").prop('disabled', true);
+
+    moment.locale('id');
+    var tanggalAkad_ = '0';
+    if(tanggalAkad_ != '0'){
+      $('#datepicker').val(moment(tanggalAkad_).format('dddd, Do MMMM YYYY'));
+    }
+    
+    var picker = new Pikaday({ 
+      
+      field: $('#datepicker')[0],
+      format: 'dddd, Do MMMM YYYY',
+      onSelect: function() {
+        $('#tanggal_akad').val(this.getMoment().format('YYYY/MM/DD'));
+      }
+    });
+
+    var tanggalResepsi_ = '0';
+    if(tanggalResepsi_ != '0'){
+      $('#datepicker2').val(moment(tanggalResepsi_).format('dddd, Do MMMM YYYY'));
+    }
+    
+    var picker = new Pikaday({ 
+      format: 'dddd, Do MMMM YYYY',
+      field: $('#datepicker2')[0],
+      onSelect: function() {
+        $('#tanggal_resepsi').val(this.getMoment().format('YYYY/MM/DD'));
+      }
+    });
+
+    $("#skipCerita").on('change', function() {
+      if ($(this).prop('checked')) {
+        $("#konten-cerita").hide();
+        $("#addCerita").hide();
+        $(".form-control").prop('required',false);
+      }else{
+        $("#konten-cerita").show();
+        $("#addCerita").show();
+        $("..form-control").prop('required',true);
+      }
+    });
+
+    $("#skipGallery").on('change', function() {
+      if ($(this).prop('checked')) {
+        $("#konten-gallery").hide();
+        $(".form-control").prop('required',false);
+      }else{
+        $("#konten-gallery").show(); 
+        $("..form-control").prop('required',true);
+      }
+    });
+
+    var i = 2;
+
+    $(document).on('click', '.btn_remove', function(){  
+
+       var button_id = $(this).attr("id");
+       $('#cerita'+button_id+'').remove();  
+       i--;
+
+       if(i == 0){
+        $("..form-control").prop('required',true);
+       }
+
+     });  
+
+    $('#addCerita').click(function(){  
+
+      i++;  
+
+      $('#konten-cerita').append('<div id="cerita'+i+'"><div class="row align-items-center mt-3"><div class="col-auto"><a style="color: #2c3e50;margin-bottom:0px;font-size: 20px;font-weight: 600;display: flex;">#'+i+'</a></div><div class="col"><a id="'+i+'" class="btn btn-sm btn_remove" style="background-color: #dc3545;padding: 5px;font-size: 12px;border-radius: 5px;">Hapus</a></div></div><div class="row align-items-center"><div class="col"><label>Tanggal</label><input name="tanggal_cerita[]" type="text" class="form-control" placeholder="Contoh : 14 Januari 2020 " required></div></div><div class="row align-items-center mt-3"><div class="col"><label>Judul</label><input name="judul_cerita[]" type="text" class="form-control" placeholder="Contoh : Pertama Bertemu" required></div></div><div class="row align-items-center mt-3"><div class="col"><label>Isi Cerita</label><textarea name="isi_cerita[]" type="text" class="form-control" placeholder="Maximal 500 Karakter" maxlength="500" rows="4" required></textarea></div></div></div>');  
+        $(".form-control").prop('required',false);
+    });
+    
+    
+var myDropzone = new Dropzone(document.body, { 
+  url: "../../order/upload", 
+  paramName: "file",
+  acceptedFiles: 'image/*',
+  autoQueue: true,
+  maxFilesize: 2,  //ukuran maksimal foto 
+  clickable: ".do-add-btn" 
+});
+
+myDropzone.on("success", function(file,response){
+    if(response == ""){
+      $('.dz-preview').remove();
+      alert('Batas Upload 10 Foto!');
+
+    }else{
+      var aql = JSON.parse(response);
+      $('.dz-preview').remove();
+      $("#previewss").prepend('<div id="preview'+aql.no+'" class="file-row preview-uploads"><div class="preview-uploads-img"><span class="preview"><img id="img3" src="../../assets/users/'+aql.dummy+'/album'+aql.no+'.png"  style="height: 100%;object-position: center;object-fit: cover;width: 100%;" /></span></div><div class="preview-uploads-name"><p class="name" style="line-height: revert;font-size: 12px;" data-dz-name>album'+aql.no+'</p><strong class="error text-danger" style="line-height: revert;font-size: 12px;"  ></strong><p class="size" style="line-height: revert;font-size: 12px;" >-</p></div><div  class="preview-uploads-delete"><button id="'+aql.no+'" class="btn btn-danger delete btnhehe">Hapus</button></div></div>');
+    }
+    $('#loading').hide();
+});
+
+myDropzone.on("sending", function(file, xhr, formData) {
+  $('.dz-preview').remove();
+  formData.append("data", "dummy_DhXUDYB");
+  $('#loading').show();
+});
+
+
+myDropzone.on("error", function(file, response) {
+  $('.dz-preview').remove();
+  alert('Maximal File = 2MB!');
+  $('#loading').hide();
+});
+
+$(document).on('click', '.btnhehe', function(){  
+
+  var button_id = $(this).attr("id");
+  var dummy = "dummy_DhXUDYB";
+  $.ajax({
+     type: 'POST',
+     url: '../../order/del',
+     data: {id: button_id,dummy: dummy},
+     success: function(data){
+        console.log('success: ' + data);
+        $('#preview'+button_id).remove();
+     }
+  });
+   
+     
+
+});
+    
+});
+
+</script><span style="margin: 0px auto; position: absolute; z-index: 2147483647; visibility: hidden; left: 1106px; width: 0px; top: 259px; height: 0px;"></span><span style="z-index: 2147483647; position: absolute; visibility: hidden; left: 1091px; width: 50px; top: 244px; height: 20px; font-size: 10px; color: black;"></span></body></html>
